@@ -36,23 +36,26 @@ This approach improves delivery success rate and reduces total delivery time in 
 
 ## Project Structure
 
+```text
 ar_hackathon/
 ├── api/
-│ └── routing.py # Custom routing policy (route_package)
-├── engine/ # Simulation engine (provided by hackathon)
-├── models/ # Data models for packages and network state
-├── utils/ # Helper utilities
-├── visualizers/ # Visualization tools for simulation output
-│
+│   └── routing.py        # Custom routing policy (route_package)
+├── engine/               # Simulation engine (provided by hackathon)
+├── models/               # Data models for packages and network state
+├── utils/                # Helper utilities
+├── visualizers/          # Visualization tools for simulation output
+
 scripts/
-└── run_game.py # CLI entry point to run simulations
-│
+└── run_game.py            # CLI entry point to run simulations
+
 test_cases/
-└── level1/
-├── test_case_1.json # Simple single-package test
-└── test_case_2.json # Multi-package, multi-hop test
-│
-team.json # Team and participant metadata
-submit.py # Submission script for hackathon evaluation
-README.md # Project documentation
-setup.py # Python package setup
+├── level1/
+├── test_case_1.json       # Simple single-package test
+└── test_case_2.json       # Multi-package, multi-hop test
+
+team.json                  # Team and participant metadata
+submit.py                  # Submission script for hackathon evaluation
+setup.py                   # Python package setup
+README.md                  # Project documentation
+```
+
