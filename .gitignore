@@ -1,3 +1,7 @@
 *.egg-info/*
 **/__pycache__/*
-visualization_output/*
+visualization_output/*.venv/
+__pycache__/
+*.pyc
+.DS_Store
+visualization_output/
